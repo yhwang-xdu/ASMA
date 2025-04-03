@@ -2,8 +2,7 @@ This is the code to reproduce our algorithm.
 
 ## Reproduce Guide
 
-### Base Project
-This project is built upon the [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) repository. Please follow the instructions below to set up the environment, download the required datasets, and load the pre-trained weights.
+We use  Xception, CORE, F3Net, Recce model checkpoints and preprocessed datasets that provided by [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench). Please follow the instructions below to set up the environment, download the required datasets, and load the pre-trained weights. The link of the pre-trained weight they provide is [here](https://github.com/SCLBD/DeepfakeBench/releases/tag/v1.0.1)
 
 ### Datasets and Pretrained Detector Models
 The datasets and detector models used in the experiments are downloaded from  [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench), please put the dataset under `datasets` folder and pretrained weight under `training/pretrained` folder.
